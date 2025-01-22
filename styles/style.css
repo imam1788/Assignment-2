@@ -289,6 +289,7 @@ margin: 0 auto 60px;
   font-size: 13px;
   font-weight: 500;
 }
+
 .story-content{
   display: grid;
   grid-template-columns: repeat(2,1fr);
@@ -320,14 +321,14 @@ margin: 0 auto 60px;
   font-size: 10px;
   font-weight: 700;
   margin: 0;
-  padding: 20px 48px 25px 33px;
+  padding: 20px 48px 30px 33px;
 }
 
 .common-story-button{
-  
   margin: -15px 70px 0 34px;
 }
-.button2, .button3, .button4, .button5{
+
+.button2, .button3{
   border-radius: 48px;
   border: none;
   background: rgb(149, 178, 38);
@@ -340,17 +341,12 @@ margin: 0 auto 60px;
 .button3{
   background: rgb(93, 88, 240);
 }
-.card-title{
-  text-align: left;
-  font-size: 13px;
-  font-weight: 700;
-}
+
 .view-button{
   text-align: center;
   margin: 80px auto 0;
-  
-  
 }
+
 .view-button button{
   border-radius: 12px;
   background: rgb(17, 17, 17);
@@ -359,6 +355,7 @@ margin: 0 auto 60px;
   font-weight: 700;
   padding: 5px 30px;
 }
+
 /* Media query for Mobile device */
 @media screen and (max-width: 576px){
   .nav-div1,
@@ -402,5 +399,35 @@ margin: 0 auto 60px;
   }
   .arrow-content{
     display: none;
+  }
+  .story-1{
+    display: none;
+  }
+  .story-section{
+    padding-bottom: 0;
+  }
+  .story-content{
+    margin-left: -35px;
+  }
+  .story-2-img{
+    max-width: 195px;
+  }
+  .button2, .button3{
+    font-size: 8px;
+    height: 22px;
+  }
+  .button3{
+    background: rgb(93, 88, 240);
+  }
+  .card-title{
+    font-size: 9px;
+  }
+  .view-button{
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 50px ;
+  }
+  .view-button button{
+    /* margin-top: -50px; */
   }
 }
